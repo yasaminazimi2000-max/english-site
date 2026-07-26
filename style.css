@@ -1,0 +1,415 @@
+/* English with Yasamin - CSS Part 1 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Vazirmatn", sans-serif;
+  background: #2B2F36;
+  color: #F5F7FA;
+  line-height: 1.8;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Header */
+
+header {
+  background: linear-gradient(135deg, #2F6BFF, #182848);
+  padding: 70px 20px;
+  text-align: center;
+  border-radius: 0 0 35px 35px;
+}
+
+header h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+
+header p {
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  background: #3D7BFF;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* Sections */
+
+section {
+    padding: 18px 0;
+}
+
+h2 {
+  color: #7EA7FF;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Cards */
+
+.card {
+  background: #363C45;
+  padding: 25px;
+  margin: 20px 0;
+  border-radius: 20px;
+  border: 1px solid #46505d;
+}
+
+.card h3 {
+  color: #F5F7FA;
+}
+
+.card h4 {
+  color: #7EA7FF;
+  font-size: 22px;
+}
+ul {
+  list-style: none;
+}
+
+li {
+  background: #363C45;
+  margin: 12px 0;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+
+/* فرم ثبت نام */
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 15px;
+  border: none;
+  background: #F5F7FA;
+  color: #2B2F36;
+  font-family: "Vazirmatn";
+}
+
+
+button {
+  width: 100%;
+  padding: 15px;
+  margin-top: 15px;
+  background: #3D7BFF;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
+
+
+/* ارتباطات */
+
+.contact-box {
+  background: #363C45;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+
+.contact-box a {
+  color: #7EA7FF;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+
+/* فوتر */
+
+footer {
+  background: #20242A;
+  padding: 25px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 30px 30px 0 0;
+}
+
+
+/* موبایل */
+
+@media(max-width:600px){
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header p {
+    font-size: 17px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+}
+.eitaa-btn{
+    display:inline-block;
+    background:#28a745;
+    color:#fff;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:14px;
+    font-size:18px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.eitaa-btn:hover{
+    transform:scale(1.05);
+}
+.eitaa-btn{
+    display:inline-block;
+    background:linear-gradient(135deg,#2196F3,#1565C0);
+    color:#fff;
+    text-decoration:none;
+    padding:14px 28px;
+    border-radius:30px;
+    font-size:18px;
+    font-weight:bold;
+    margin:40px auto;
+    display:block;
+    width:max-content;
+    box-shadow:0 6px 18px rgba(33,150,243,.35);
+}
+a{
+  text-decoration: none;
+}
+.comments-section{
+    max-width:600px;
+    margin:40px auto;
+    padding:20px;
+    background:#0F3D91;
+    border-radius:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.25);
+    color:#fff;
+}
+
+.comments-section h2{
+    color:#fff;
+    text-align:center;
+}
+
+.comments-section textarea{
+    width:100%;
+    height:120px;
+    background:#1A4FB8;
+    color:#fff;
+    border:2px solid #4EA3FF;
+    border-radius:12px;
+    padding:12px;
+    font-size:16px;
+    resize:none;
+    outline:none;
+    margin:15px 0;
+}
+
+.comments-section textarea::placeholder{
+    color:#d6e6ff;
+}
+
+.stars label{
+    color:#fff;
+    font-size:18px;
+    display:block;
+    margin:8px 0;
+}
+
+#result{
+    margin-top:15px;
+    color:#9CFF9C;
+    font-weight:bold;
+    text-align:center;
+}
+.call-btn{
+    display:inline-block;
+    background:#1565C0;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 22px;
+    border-radius:30px;
+    font-weight:bold;
+    font-size:16px;
+    box-shadow:0 5px 15px rgba(0,0,0,.2);
+    transition:.3s;
+}
+
+.call-btn:hover{
+    background:#0D47A1;
+    transform:translateY(-2px);
+}
+.stars{
+    color:#FFD700 !important;
+    font-size:30px;
+    letter-spacing:2px;
+    margin-bottom:8px;
+}
+.reviews{
+    width: 88%;
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.review-card{
+    width: 100%;
+    padding: 12px;
+    border-radius: 14px;
+}
+.reviews{
+    border: 1.5px solid #3b82f6;
+    border-radius: 18px;
+    padding: 18px;
+    margin: 20px auto;
+}
+.register-box{
+    width:80%;
+    max-width:500px;
+    margin:25px auto;
+    padding:18px;
+    text-align:center;
+    border:1.5px solid #3b82f6;
+    border-radius:18px;
+    box-shadow:0 0 10px rgba(59,130,246,.2);
+}
+
+.register-box h3{
+    color:#fff;
+    font-size:18px;
+    margin-bottom:15px;
+}
+
+.register-btn{
+    display:inline-block;
+    background:#1565C0;
+    color:#fff;
+    text-decoration:none;
+    padding:12px 24px;
+    border-radius:30px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.register-btn:hover{
+    background:#0D47A1;
+}
+/* کوچک کردن بخش نظرات کاربران */
+.review-form,
+.comment-box,
+.reviews-form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.review-form textarea,
+.comment-box textarea,
+.reviews-form textarea {
+    height: 90px;
+}
+
+.review-form button,
+.comment-box button,
+.reviews-form button {
+    padding: 10px 25px;
+    font-size: 16px;
+}
+.price-box{
+    max-width:500px;
+    margin:25px auto;
+    padding:18px;
+    border:1px solid #4da3ff;
+    border-radius:18px;
+    background:#363c45;
+    text-align:center;
+}
+
+.price-box h2{
+    color:#7EA7FF;
+    margin-bottom:15px;
+}
+
+.price-card{
+    border:1px solid #4da3ff;
+    border-radius:14px;
+    padding:15px;
+    background:#2b2f36;
+}
+
+.price-card h3{
+    margin:0;
+    color:#fff;
+}
+
+.price{
+    font-size:30px;
+    color:#ffd54a;
+    font-weight:bold;
+    margin:12px 0;
+}
+
+.price-note{
+    margin-top:15px;
+    color:#ddd;
+    font-size:15px;
+}
+.price-box{
+    border:1px solid #4da3ff;
+    border-radius:16px;
+    padding:18px;
+    margin-top:15px;
+    background:#2f3d56;
+    text-align:center;
+}
+
+.price-box h3{
+    color:#7ec8ff;
+    margin-bottom:10px;
+}
+
+.price-box p{
+    margin:8px 0;
+    font-size:18px;
+}
+.price-box h3{
+    color:#FFD700;
+    margin-bottom:10px;
+}
+
+.price-box p{
+    color:#FFD700;
+    margin:8px 0;
+    font-size:18px;
+    font-weight:bold;
+}
+
+.price-box strong{
+    color:#FFC107;
+}
